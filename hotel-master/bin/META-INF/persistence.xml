@@ -10,7 +10,7 @@
             <!-- Conexão com o banco de dados -->
 			<property name="hibernate.dialect" value="org.hibernate.dialect.MySQL5InnoDBDialect" />
 			<property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
-			<property name="hibernate.connection.url" value="jdbc:mysql://localhost/hotel" />
+			<property name="hibernate.connection.url" value="jdbc:mysql://localhost:3306/botecotech?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=UTC"/>
 			<property name="hibernate.connection.user" value="root" />
 			<property name="hibernate.connection.password" value="root" />
 <!--             <property name="hibernate.hbm2ddl.auto" value="create" /> -->

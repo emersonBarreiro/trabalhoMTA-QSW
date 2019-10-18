@@ -1,6 +1,9 @@
 package model;
 
 import javax.persistence.*;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToOne;
 
 @Entity
 @Table(name="reservas")

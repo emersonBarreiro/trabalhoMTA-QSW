@@ -3,6 +3,9 @@ package model;
 import javax.persistence.*;
 import java.util.HashMap;
 import java.util.Map;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 @Table(name="hospede")
