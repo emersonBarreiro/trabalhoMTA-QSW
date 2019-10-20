@@ -1,13 +1,11 @@
-import controller.FrmReservas;
-import observer.EventEmitter;
+import controller.FrmPrincipal;
 
 public class Principal {
 
 	public static void main(String[] args) {
 
-		EventEmitter emitter = new EventEmitter();
 
-		FrmReservas frmReservas = new FrmReservas(emitter);
-		frmReservas.setVisible(true);
+		FrmPrincipal frmPrincipal = new FrmPrincipal();
+		frmPrincipal.setVisible(true);
 	}
 }

@@ -1,7 +1,5 @@
 package model;
 import javax.persistence.*;
-import java.util.HashMap;
-import java.util.Map;
 
 @Entity
 @Table(name="bebida")
@@ -12,7 +10,7 @@ public class Bebida {
 	@Column
 	private String nome;
 	@Column
-	private double preco;
+	private String preco;
 	public int getId() {
 		return id;
 	}
@@ -25,10 +23,10 @@ public class Bebida {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public double getPreco() {
+	public String getPreco() {
 		return preco;
 	}
-	public void setPreco(double preco) {
+	public void setPreco(String preco) {
 		this.preco = preco;
 	}
 }
